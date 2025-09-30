@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <title>Malaysia Household Income & Expenditure Map</title>
+  </head>
+
+  <body>
+    <div id="vis"></div>
+
+    <script type="text/javascript">
+      var spec = {
+        $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+        width: 850,
+        height: 400,
+        title: "Average Household Income by State in Malaysia (2022)",
+        projection: {
+          type: "mercator",
+          center: [109.5, 3],
+          scale: 2500,
+        },
+        layer: [
+          // Layer 1: Ocean background
+          {
+            data: {
+              url: "https://raw.githubusercontent.com/ylee0132/FIT3179/refs/heads/main/W9_hw/malaysia_map.json",
+              format: {
+                type: "topojson",
+                feature: "ne_10m_ocean",
+                fillOpacity: 0.3,
+              },
+            },
+            mark: {
+              type: "geoshape",
+              fill: "lightblue",
+            },
+          },
+          // Layer 2: Graticules
+          {
+            data: {
+              url: "https://raw.githubusercontent.com/ylee0132/FIT3179/refs/heads/main/W9_hw/malaysia_map.json",
+              format: {
+                type: "topojson",
+                feature: "ne_10m_graticules_30",
+              },
+            },
+            mark: {
+              type: "geoshape",
+              fill: null,
+              stroke: "lightgray",
+              strokeWidth: 0.5,
+            },
+          },
+          // Layer 3: Malaysian states with data
+          {
+            data: {
+              url: "https://raw.githubusercontent.com/ylee0132/FIT3179/refs/heads/main/W9_hw/malaysia_map.json",
+              format: {
+                type: "topojson",
+                feature: "ne_10m_admin_1_states_provinces",
+              },
+            },
+            transform: [
+              {
+                lookup: "properties.name",
+                from: {
+                  data: {
+                    url: "https://raw.githubusercontent.com/ylee0132/FIT3179/refs/heads/main/W9_hw/hies_district.csv",
+                  },
+                  key: "state",
+                  fields: [
+                    "income_mean",
+                    "income_median",
+                    "expenditure_mean",
+                    "gini",
+                    "poverty",
+                  ],
+                },
+              },
+            ],
+            mark: { type: "geoshape", stroke: "white", strokeWidth: 1 },
+            encoding: {
+              color: {
+                field: "income_mean",
+                type: "quantitative",
+                scale: {
+                  scheme: "oranges",
+                },
+                legend: {
+                  title: "Mean Income (RM)",
+                },
+              },
+              tooltip: [
+                { field: "properties.name", type: "nominal", title: "State" },
+                {
+                  field: "income_mean",
+                  type: "quantitative",
+                  title: "Mean Income (RM)",
+                  format: ",.0f",
+                },
+                {
+                  field: "income_median",
+                  type: "quantitative",
+                  title: "Median Income (RM)",
+                  format: ",.0f",
+                },
+                {
+                  field: "gini",
+                  type: "quantitative",
+                  title: "Gini Coefficient",
+                  format: ".4f",
+                },
+                {
+                  field: "poverty",
+                  type: "quantitative",
+                  title: "Poverty Rate (%)",
+                  format: ".1f",
+                },
+              ],
+            },
+          },
+        ],
+      };
+
+      vegaEmbed("#vis", spec);
+    </script>
+  </body>
+</html>
