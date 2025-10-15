@@ -1,0 +1,999 @@
+Age,Gender,Education Level,Job Title,Years of Experience,Salary
+32.0,Male,Bachelor's,Software Engineer,5.0,5111.1
+28.0,Female,Master's,Data Analyst,3.0,3691.35
+45.0,Male,PhD,Senior Manager,15.0,8518.5
+36.0,Female,Bachelor's,Sales Associate,7.0,3407.4
+52.0,Male,Master's,Director,20.0,11358.0
+29.0,Male,Bachelor's,Marketing Analyst,2.0,3123.4500000000003
+42.0,Female,Master's,Product Manager,12.0,6814.8
+31.0,Male,Bachelor's,Sales Manager,4.0,4543.2
+26.0,Female,Bachelor's,Marketing Coordinator,1.0,2555.55
+38.0,Male,PhD,Senior Scientist,10.0,6246.900000000001
+29.0,Male,Master's,Software Developer,3.0,4259.25
+48.0,Female,Bachelor's,HR Manager,18.0,7950.6
+35.0,Male,Bachelor's,Financial Analyst,6.0,3691.35
+40.0,Female,Master's,Project Manager,14.0,7382.7
+27.0,Male,Bachelor's,Customer Service Rep,2.0,2271.6
+44.0,Male,Bachelor's,Operations Manager,16.0,7098.75
+33.0,Female,Master's,Marketing Manager,7.0,5111.1
+39.0,Male,PhD,Senior Engineer,12.0,6530.85
+25.0,Female,Bachelor's,Data Entry Clerk,0.0,1987.65
+51.0,Male,Bachelor's,Sales Director,22.0,10222.2
+34.0,Female,Master's,Business Analyst,5.0,4543.2
+47.0,Male,Master's,VP of Operations,19.0,10790.1
+30.0,Male,Bachelor's,IT Support,2.0,2839.5
+36.0,Female,Bachelor's,Recruiter,9.0,3407.4
+41.0,Male,Master's,Financial Manager,13.0,7950.6
+28.0,Female,Bachelor's,Social Media Specialist,3.0,2555.55
+37.0,Female,Master's,Software Manager,11.0,6246.900000000001
+24.0,Male,Bachelor's,Junior Developer,1.0,2271.6
+43.0,Female,PhD,Senior Consultant,15.0,7950.6
+33.0,Male,Master's,Product Designer,6.0,5111.1
+50.0,Male,Bachelor's,CEO,25.0,14197.5
+31.0,Female,Bachelor's,Accountant,4.0,3123.4500000000003
+29.0,Male,Master's,Data Scientist,3.0,4259.25
+39.0,Female,Bachelor's,Marketing Specialist,10.0,3691.35
+46.0,Male,PhD,Senior Manager,20.0,9654.3
+27.0,Male,Bachelor's,Technical Writer,2.0,2555.55
+35.0,Female,Bachelor's,HR Generalist,7.0,3407.4
+42.0,Male,Master's,Project Engineer,14.0,6530.85
+26.0,Female,Bachelor's,Customer Success Rep,1.0,2271.6
+49.0,Male,Bachelor's,Sales Executive,21.0,9086.4
+34.0,Female,Master's,UX Designer,5.0,4543.2
+48.0,Male,Master's,Operations Director,18.0,10790.1
+30.0,Male,Bachelor's,Network Engineer,3.0,3407.4
+36.0,Female,Bachelor's,Administrative Assistant,8.0,2555.55
+41.0,Male,Master's,Strategy Consultant,13.0,7382.7
+28.0,Female,Bachelor's,Copywriter,2.0,2271.6
+32.0,Male,Bachelor's,Account Manager,5.0,4259.25
+45.0,Female,Master's,Director of Marketing,16.0,10222.2
+38.0,Male,PhD,Senior Scientist,11.0,6814.8
+25.0,Male,Bachelor's,Help Desk Analyst,0.0,1987.65
+51.0,Female,Bachelor's,Customer Service Manager,22.0,7382.7
+33.0,Male,Master's,Business Intelligence Analyst,7.0,4827.15
+40.0,Female,Bachelor's,Event Coordinator,12.0,3407.4
+47.0,Male,Master's,VP of Finance,19.0,11358.0
+29.0,Female,Bachelor's,Graphic Designer,3.0,2839.5
+36.0,Male,Bachelor's,Sales Manager,9.0,5395.05
+27.0,Female,Master's,UX Researcher,2.0,3691.35
+43.0,Male,PhD,Senior Engineer,17.0,7950.6
+30.0,Female,Bachelor's,Social Media Manager,4.0,3123.4500000000003
+35.0,Male,Master's,Product Manager,7.0,5962.95
+51.0,Female,Master's,Director of Operations,23.0,9654.3
+29.0,Male,Bachelor's,Marketing Analyst,3.0,2839.5
+40.0,Female,Bachelor's,HR Manager,12.0,4543.2
+47.0,Male,PhD,Senior Data Scientist,21.0,10222.2
+26.0,Male,Bachelor's,Junior Accountant,1.0,1987.65
+38.0,Female,Master's,Digital Marketing Manager,10.0,5111.1
+46.0,Male,Bachelor's,IT Manager,19.0,6814.8
+31.0,Female,Bachelor's,Customer Service Representative,5.0,2555.55
+34.0,Male,Master's,Business Development Manager,8.0,5111.1
+49.0,Female,Master's,Senior Financial Analyst,18.0,8518.5
+33.0,Male,Bachelor's,Web Developer,6.0,3691.35
+39.0,Female,Bachelor's,Recruiter,11.0,3975.3
+45.0,Male,PhD,Research Director,16.0,10790.1
+28.0,Male,Bachelor's,Technical Support Specialist,2.0,2271.6
+42.0,Female,Master's,Creative Director,14.0,6814.8
+37.0,Male,Bachelor's,Project Manager,10.0,5395.05
+50.0,Female,Bachelor's,Operations Manager,22.0,9086.4
+32.0,Male,Master's,Senior Software Engineer,6.0,5679.0
+48.0,Female,Master's,Human Resources Director,20.0,10222.2
+30.0,Female,Bachelor's,Content Marketing Manager,3.0,3123.4500000000003
+36.0,Male,Bachelor's,Technical Recruiter,8.0,3975.3
+41.0,Female,Master's,Data Analyst,13.0,4543.2
+25.0,Male,Bachelor's,Sales Representative,0.0,1703.7
+52.0,Male,PhD,Chief Technology Officer,24.0,14197.5
+29.0,Female,Bachelor's,Junior Designer,2.0,2271.6
+34.0,Female,Master's,Financial Advisor,10.0,5395.05
+27.0,Male,Bachelor's,Junior Account Manager,2.0,2555.55
+40.0,Female,Bachelor's,HR Generalist,15.0,4543.2
+46.0,Male,Master's,Senior Project Manager,21.0,7666.650000000001
+31.0,Female,Bachelor's,Marketing Coordinator,6.0,3123.4500000000003
+36.0,Male,PhD,Principal Scientist,11.0,6814.8
+29.0,Female,Bachelor's,Sales Associate,3.0,2271.6
+43.0,Male,Bachelor's,Supply Chain Manager,18.0,5962.95
+52.0,Female,Master's,Senior Marketing Manager,25.0,9654.3
+33.0,Male,Bachelor's,Business Analyst,7.0,4259.25
+39.0,Female,Bachelor's,Training Specialist,12.0,3691.35
+47.0,Male,PhD,Research Scientist,22.0,9086.4
+26.0,Male,Bachelor's,Junior Software Developer,1.0,1987.65
+38.0,Female,Master's,Public Relations Manager,10.0,5111.1
+45.0,Male,Bachelor's,Operations Analyst,20.0,6246.900000000001
+31.0,Female,Bachelor's,Event Coordinator,5.0,2555.55
+35.0,Male,Master's,Product Marketing Manager,8.0,5395.05
+49.0,Female,Master's,Senior HR Manager,19.0,8518.5
+33.0,Male,Bachelor's,Junior Web Developer,5.0,2839.5
+39.0,Female,Master's,Senior Project Coordinator,13.0,4543.2
+44.0,Male,PhD,Chief Data Officer,16.0,12493.800000000001
+30.0,Female,Bachelor's,Digital Content Producer,3.0,2839.5
+36.0,Male,Bachelor's,IT Support Specialist,7.0,3407.4
+41.0,Female,Master's,Senior Marketing Analyst,14.0,5679.0
+28.0,Male,Bachelor's,Customer Success Manager,2.0,2271.6
+42.0,Female,Master's,Senior Graphic Designer,15.0,6246.900000000001
+37.0,Male,Bachelor's,Software Project Manager,9.0,5395.05
+50.0,Female,Bachelor's,Supply Chain Analyst,22.0,7382.7
+32.0,Male,Master's,Senior Business Analyst,6.0,5111.1
+23.0,Female,Bachelor's,Junior Marketing Analyst,0.5,1987.65
+31.0,Male,Master's,Senior Financial Analyst,6.0,5395.05
+40.0,Female,Bachelor's,Office Manager,15.0,3691.35
+48.0,Male,PhD,Principal Engineer,20.0,9654.3
+29.0,Female,Bachelor's,Junior HR Generalist,3.0,2555.55
+35.0,Male,Master's,Senior Product Manager,10.0,6814.8
+42.0,Female,Bachelor's,Sales Manager,17.0,5679.0
+53.0,Male,Master's,Director of Marketing,25.0,10222.2
+33.0,Female,Bachelor's,Junior Operations Analyst,5.0,2839.5
+38.0,Male,Bachelor's,Customer Service Manager,11.0,4543.2
+44.0,Female,PhD,Senior Scientist,16.0,7950.6
+26.0,Male,Bachelor's,Junior Accountant,2.0,2271.6
+37.0,Female,Master's,Senior HR Generalist,9.0,5395.05
+45.0,Male,Bachelor's,Sales Operations Manager,18.0,6246.900000000001
+32.0,Female,Bachelor's,Marketing Coordinator,4.0,2839.5
+34.0,Male,Master's,Senior Software Developer,8.0,5962.95
+50.0,Female,Master's,Director of Operations,21.0,9086.4
+29.0,Male,Bachelor's,Junior Web Designer,3.0,2555.55
+40.0,Female,Master's,Senior Training Specialist,12.0,5679.0
+47.0,Male,PhD,Senior Research Scientist,22.0,9086.4
+27.0,Male,Bachelor's,Junior Sales Representative,1.0,1987.65
+39.0,Female,Bachelor's,Administrative Assistant,10.0,3123.4500000000003
+46.0,Male,Master's,Senior Project Manager,19.0,7950.6
+30.0,Female,Bachelor's,Junior Marketing Manager,4.0,2839.5
+36.0,Male,Bachelor's,Junior Data Analyst,7.0,3407.4
+43.0,Female,Master's,Senior Product Marketing Manager,14.0,6814.8
+28.0,Male,Bachelor's,Junior Business Analyst,2.0,2271.6
+41.0,Female,Master's,Senior Marketing Manager,13.0,6246.900000000001
+33.0,Male,Bachelor's,Junior Software Developer,5.0,2839.5
+47.0,Male,Bachelor's,Senior Sales Manager,20.0,7666.650000000001
+25.0,Female,Master's,Junior Marketing Specialist,1.5,2271.6
+34.0,Male,Bachelor's,Senior Business Analyst,8.0,5111.1
+42.0,Female,PhD,Senior Data Scientist,16.0,8518.5
+31.0,Male,Bachelor's,Junior Project Manager,4.0,3407.4
+38.0,Female,Bachelor's,Senior Accountant,10.0,4543.2
+45.0,Male,Master's,Director of Sales,19.0,9938.25
+29.0,Female,Bachelor's,Junior Recruiter,3.0,2555.55
+36.0,Male,Master's,Senior Business Development Manager,11.0,6814.8
+43.0,Female,PhD,Senior Product Designer,18.0,7950.6
+26.0,Male,Bachelor's,Junior Customer Support Specialist,2.0,1987.65
+37.0,Female,Master's,Senior Marketing Analyst,9.0,5395.05
+44.0,Male,Bachelor's,Senior IT Support Specialist,14.0,6246.900000000001
+32.0,Female,Bachelor's,Junior Financial Analyst,5.0,2839.5
+33.0,Male,Master's,Senior Operations Manager,7.0,6530.85
+51.0,Female,PhD,Director of Human Resources,23.0,10506.15
+28.0,Male,Bachelor's,Junior Software Engineer,2.0,2271.6
+39.0,Female,Bachelor's,Senior Sales Representative,12.0,5111.1
+48.0,Male,Master's,Director of Product Management,21.0,9938.25
+30.0,Female,Bachelor's,Junior Copywriter,3.0,2555.55
+35.0,Male,Bachelor's,Senior Marketing Coordinator,7.0,4543.2
+41.0,Female,Master's,Senior Human Resources Manager,13.0,6814.8
+27.0,Male,Bachelor's,Junior Business Development Associate,1.5,1987.65
+40.0,Female,Bachelor's,Senior Account Manager,14.0,6246.900000000001
+46.0,Male,PhD,Senior Researcher,18.0,8518.5
+31.0,Female,Bachelor's,Junior HR Coordinator,4.0,2839.5
+34.0,Male,Master's,Senior Software Engineer,9.0,5962.95
+50.0,Female,Master's,Director of Finance,20.0,10222.2
+29.0,Male,Bachelor's,Junior Marketing Coordinator,2.0,2271.6
+43.0,Male,Bachelor's,Senior Project Manager,16.0,7950.6
+26.0,Female,Master's,Junior Data Scientist,1.5,2555.55
+35.0,Male,Bachelor's,Senior Operations Analyst,7.0,4827.15
+42.0,Female,PhD,Senior Marketing Manager,18.0,7950.6
+31.0,Male,Bachelor's,Junior Accountant,4.0,2839.5
+38.0,Female,Bachelor's,Senior Human Resources Coordinator,10.0,4543.2
+46.0,Male,Master's,Director of Operations,20.0,9654.3
+29.0,Female,Bachelor's,Junior Sales Representative,2.0,2271.6
+37.0,Male,Master's,Senior Business Analyst,9.0,5962.95
+44.0,Female,PhD,Senior UX Designer,15.0,8234.55
+27.0,Male,Bachelor's,Junior Product Manager,2.0,2271.6
+36.0,Female,Bachelor's,Senior Marketing Specialist,8.0,4827.15
+43.0,Male,Bachelor's,Senior IT Project Manager,14.0,7382.7
+33.0,Female,Master's,Senior Financial Analyst,6.0,5395.05
+34.0,Male,Bachelor's,Senior Quality Assurance Analyst,9.0,5679.0
+50.0,Female,PhD,Director of Sales and Marketing,22.0,10222.2
+28.0,Male,Bachelor's,Junior Operations Analyst,1.5,1987.65
+39.0,Female,Bachelor's,Senior Account Executive,12.0,5395.05
+47.0,Male,Master's,Director of Business Development,19.0,9654.3
+30.0,Female,Bachelor's,Junior Social Media Manager,3.0,2555.55
+34.0,Male,Bachelor's,Senior Product Manager,7.0,5395.05
+40.0,Female,Master's,Senior Human Resources Specialist,13.0,6814.8
+28.0,Male,Bachelor's,Junior Business Analyst,2.0,2271.6
+41.0,Female,Bachelor's,Senior Marketing Coordinator,11.0,5111.1
+45.0,Male,PhD,Senior Data Analyst,17.0,8802.45
+32.0,Female,Bachelor's,Junior Account Manager,5.0,3123.4500000000003
+35.0,Male,Master's,Senior Software Developer,9.0,6246.900000000001
+49.0,Female,Master's,Director of Human Capital,21.0,10222.2
+30.0,Male,Bachelor's,Junior Advertising Coordinator,3.0,2555.55
+44.0,Male,Bachelor's,Senior Sales Manager,16.0,7382.7
+27.0,Female,Master's,Junior UX Designer,1.5,2555.55
+36.0,Male,Bachelor's,Senior Accountant,7.0,5111.1
+41.0,Female,PhD,Senior Marketing Director,17.0,9086.4
+31.0,Male,Bachelor's,Junior HR Generalist,4.0,2839.5
+39.0,Female,Bachelor's,Senior Operations Manager,10.0,6814.8
+47.0,Male,Master's,Director of Finance,20.0,9654.3
+30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,2271.6
+38.0,Male,Master's,Senior IT Consultant,9.0,6246.900000000001
+45.0,Female,PhD,Senior Product Designer,15.0,8518.5
+28.0,Male,Bachelor's,Junior Business Development Associate,2.0,2271.6
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+44.0,Male,Bachelor's,Senior Software Engineer,14.0,7382.7
+34.0,Female,Master's,Senior Financial Advisor,6.0,5679.0
+35.0,Male,Bachelor's,Senior Project Coordinator,9.0,5395.05
+50.0,Female,PhD,Director of Operations,22.0,10222.2
+29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,1987.65
+40.0,Female,Bachelor's,Senior Sales Representative,12.0,5679.0
+48.0,Male,Master's,Director of Marketing,19.0,9654.3
+31.0,Female,Bachelor's,Junior Social Media Specialist,3.0,2555.55
+33.0,Male,Bachelor's,Senior Product Development Manager,7.0,5679.0
+42.0,Female,Master's,Senior Human Resources Manager,13.0,7950.6
+28.0,Male,Bachelor's,Junior Financial Analyst,2.0,2271.6
+40.0,Female,Bachelor's,Senior Marketing Manager,11.0,5962.95
+46.0,Male,PhD,Senior Data Scientist,18.0,9086.4
+33.0,Female,Bachelor's,Junior Operations Manager,5.0,3975.3
+37.0,Male,Master's,Senior Software Architect,9.0,6814.8
+51.0,Female,Master's,Director of Human Resources,21.0,10790.1
+30.0,Male,Bachelor's,Junior Marketing Specialist,3.0,2555.55
+43.0,Male,Bachelor's,Senior Project Manager,15.0,6814.8
+27.0,Female,Master's,Junior Research Scientist,1.5,2839.5
+35.0,Male,Bachelor's,Senior Operations Analyst,8.0,4827.15
+42.0,Female,PhD,Senior Marketing Manager,13.0,7950.6
+32.0,Male,Bachelor's,Junior Sales Representative,3.0,2555.55
+37.0,Female,Bachelor's,Senior Financial Analyst,9.0,5679.0
+45.0,Male,Master's,Senior Software Developer,16.0,7950.6
+33.0,Female,Bachelor's,Junior Operations Analyst,5.0,3975.3
+39.0,Male,Bachelor's,Senior Marketing Specialist,10.0,6814.8
+44.0,Female,PhD,Senior HR Manager,18.0,9086.4
+29.0,Male,Bachelor's,Junior Business Analyst,1.5,2271.6
+38.0,Female,Bachelor's,Senior Product Manager,10.0,6814.8
+46.0,Male,PhD,Senior Data Analyst,19.0,8518.5
+34.0,Female,Bachelor's,Junior Marketing Analyst,6.0,3975.3
+36.0,Male,Bachelor's,Senior Operations Manager,8.0,5395.05
+49.0,Female,Master's,Director of Marketing,21.0,10222.2
+31.0,Male,Bachelor's,Junior Financial Analyst,3.0,2839.5
+41.0,Female,Bachelor's,Senior Project Coordinator,11.0,5395.05
+47.0,Male,Master's,Director of Operations,20.0,9654.3
+30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,2271.6
+38.0,Male,Master's,Senior IT Consultant,9.0,6246.900000000001
+45.0,Female,PhD,Senior Product Designer,15.0,8518.5
+28.0,Male,Bachelor's,Junior Business Development Associate,2.0,2271.6
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+44.0,Male,Bachelor's,Senior Software Engineer,14.0,7382.7
+34.0,Female,Master's,Senior Financial Advisor,6.0,5679.0
+35.0,Male,Bachelor's,Senior Project Coordinator,9.0,5395.05
+50.0,Female,PhD,Director of Operations,22.0,10222.2
+29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,19.8765
+37.0,Female,Bachelor's,Senior Financial Manager,10.0,6814.8
+46.0,Male,PhD,Senior Data Scientist,18.0,9086.4
+31.0,Female,Bachelor's,Junior Marketing Coordinator,3.0,2839.5
+42.0,Male,Bachelor's,Senior Operations Manager,12.0,6246.900000000001
+29.0,Female,Bachelor's,Junior Sales Representative,1.5,2271.6
+36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,5395.05
+44.0,Female,Master's,Senior HR Specialist,15.0,7950.6
+33.0,Male,Bachelor's,Junior Operations Manager,4.0,3407.4
+39.0,Female,Bachelor's,Senior Marketing Coordinator,9.0,6246.900000000001
+45.0,Male,PhD,Senior Data Engineer,16.0,8518.5
+32.0,Female,Bachelor's,Junior Marketing Manager,4.0,3407.4
+37.0,Male,Bachelor's,Senior Financial Analyst,8.0,5111.1
+47.0,Female,Master's,Director of Marketing,20.0,10222.2
+30.0,Male,Bachelor's,Junior Business Analyst,2.0,2271.6
+38.0,Female,Bachelor's,Senior Project Manager,9.0,6814.8
+46.0,Male,PhD,Senior Data Analyst,17.0,9086.4
+34.0,Female,Bachelor's,Junior Financial Analyst,5.0,3975.3
+36.0,Male,Bachelor's,Senior Product Manager,8.0,5395.05
+49.0,Female,Master's,Director of Operations,21.0,10222.2
+31.0,Male,Bachelor's,Junior Operations Analyst,3.0,2839.5
+41.0,Female,Bachelor's,Senior Project Coordinator,11.0,5395.05
+47.0,Male,Master's,Director of Marketing,19.0,9654.3
+29.0,Female,Bachelor's,Junior Business Development Associate,1.5,1987.65
+35.0,Male,Bachelor's,Senior Financial Manager,9.0,5679.0
+44.0,Female,PhD,Senior Product Designer,15.0,8518.5
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,3407.4
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+44.0,Male,Bachelor's,Senior Software Engineer,13.0,7382.7
+32.0,Male,Bachelor's,Junior Product Manager,4.0,3691.35
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,6246.900000000001
+49.0,Male,PhD,Director of Operations,21.0,10222.2
+29.0,Female,Bachelor's,Junior Marketing Specialist,2.0,2271.6
+35.0,Male,Bachelor's,Senior Business Development Manager,7.0,5111.1
+45.0,Female,Master's,Senior HR Manager,14.0,7950.6
+33.0,Male,Bachelor's,Junior Financial Analyst,4.0,3407.4
+40.0,Female,Bachelor's,Senior Marketing Manager,12.0,7382.7
+44.0,Male,PhD,Senior Data Scientist,16.0,9086.4
+30.0,Female,Bachelor's,Junior Operations Coordinator,2.0,2271.6
+37.0,Male,Bachelor's,Senior Marketing Analyst,9.0,5679.0
+48.0,Female,Master's,Director of HR,20.0,10222.2
+31.0,Male,Bachelor's,Junior Project Manager,3.0,3123.4500000000003
+38.0,Female,Bachelor's,Senior Operations Coordinator,9.0,6814.8
+45.0,Male,PhD,Senior Data Engineer,16.0,8518.5
+33.0,Female,Bachelor's,Junior Marketing Manager,5.0,3975.3
+36.0,Male,Bachelor's,Senior Business Analyst,8.0,5395.05
+49.0,Female,Master's,Director of Marketing,21.0,10222.2
+31.0,Male,Bachelor's,Junior Operations Analyst,3.0,2839.5
+42.0,Female,Bachelor's,Senior Project Manager,12.0,6814.8
+47.0,Male,Master's,Director of Marketing,19.0,9654.3
+29.0,Female,Bachelor's,Junior Business Development Associate,1.5,1987.65
+35.0,Male,Bachelor's,Senior Financial Manager,9.0,5679.0
+44.0,Female,PhD,Senior Product Designer,15.0,8518.5
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,3407.4
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+44.0,Male,Bachelor's,Senior Software Engineer,13.0,7382.7
+34.0,Female,Master's,Senior Financial Advisor,6.0,4543.2
+36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,5395.05
+30.0,Female,Bachelor's,Junior HR Coordinator,2.0,2271.6
+37.0,Male,Bachelor's,Senior Business Development Manager,10.0,6814.8
+45.0,Female,Master's,Senior Marketing Manager,16.0,9086.4
+32.0,Male,Bachelor's,Junior Financial Advisor,4.0,3691.35
+39.0,Female,Bachelor's,Senior Project Manager,12.0,7382.7
+47.0,Male,PhD,Director of Engineering,20.0,10222.2
+29.0,Female,Bachelor's,Junior Marketing Analyst,2.0,2271.6
+36.0,Male,Bachelor's,Senior Operations Manager,9.0,5679.0
+43.0,Female,PhD,Senior Data Scientist,15.0,8518.5
+32.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,3123.4500000000003
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,6246.900000000001
+48.0,Male,Master's,Director of Marketing,21.0,10222.2
+31.0,Female,Bachelor's,Junior Business Development Associate,3.0,2839.5
+40.0,Male,Bachelor's,Senior Financial Analyst,12.0,7382.7
+45.0,Female,PhD,Senior UX Designer,16.0,9086.4
+33.0,Male,Bachelor's,Junior Product Manager,4.0,3407.4
+36.0,Female,Bachelor's,Senior Marketing Manager,8.0,5395.05
+47.0,Male,Master's,Director of Operations,19.0,9654.3
+29.0,Female,Bachelor's,Junior Project Manager,2.0,2271.6
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,5111.1
+44.0,Female,PhD,Senior Business Analyst,15.0,8518.5
+33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,3975.3
+35.0,Female,Bachelor's,Senior Financial Manager,8.0,5111.1
+43.0,Male,Master's,Director of Marketing,18.0,9654.3
+31.0,Female,Bachelor's,Junior Financial Analyst,3.0,2839.5
+41.0,Male,Bachelor's,Senior Product Manager,14.0,8518.5
+44.0,Female,PhD,Senior Data Engineer,16.0,9086.4
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,3407.4
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+45.0,Male,Master's,Director of Engineering,19.0,10222.2
+28.0,Female,Bachelor's,Junior Operations Manager,1.0,1987.65
+36.0,Male,Bachelor's,Senior Business Development Manager,8.0,6246.900000000001
+44.0,Female,PhD,Senior Data Scientist,16.0,9086.4
+31.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,3123.4500000000003
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,6246.900000000001
+48.0,Male,Master's,Director of Marketing,21.0,10222.2
+31.0,Female,Bachelor's,Junior Business Development Associate,3.0,2839.5
+40.0,Male,Bachelor's,Senior Financial Analyst,12.0,7382.7
+45.0,Female,PhD,Senior UX Designer,16.0,9086.4
+33.0,Male,Bachelor's,Junior Product Manager,4.0,3407.4
+36.0,Female,Bachelor's,Senior Marketing Manager,8.0,5395.05
+47.0,Male,Master's,Director of Operations,19.0,9654.3
+29.0,Female,Bachelor's,Junior Project Manager,2.0,2271.6
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,5111.1
+44.0,Female,PhD,Senior Business Analyst,15.0,8518.5
+33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,3975.3
+35.0,Female,Bachelor's,Senior Financial Manager,8.0,5111.1
+43.0,Male,Master's,Director of Marketing,18.0,9654.3
+31.0,Female,Bachelor's,Junior Financial Analyst,3.0,2839.5
+41.0,Male,Bachelor's,Senior Product Manager,14.0,8518.5
+44.0,Female,PhD,Senior Data Engineer,16.0,9086.4
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,3407.4
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,4827.15
+43.0,Male,Master's,Director of Operations,19.0,9654.3
+29.0,Female,Bachelor's,Junior Project Manager,2.0,2271.6
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,5111.1
+44.0,Female,PhD,Senior Business Analyst,15.0,8518.5
+31.0,Male,Master's,Data Scientist,6.0,9086.4
+28.0,Female,Bachelor's,Software Engineer,3.0,7098.75
+26.0,Male,Master's,Product Manager,2.0,6814.8
+27.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Male,PhD,Data Scientist,5.0,10222.2
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+32.0,Male,Bachelor's,Product Manager,7.0,9654.3
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+28.0,Male,Bachelor's,Software Engineer,3.0,7098.75
+26.0,Female,Master's,Product Manager,2.0,6814.8
+27.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,5.0,10222.2
+29.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+32.0,Male,Bachelor's,Product Manager,7.0,9654.3
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+28.0,Male,Bachelor's,Software Engineer,3.0,7098.75
+26.0,Female,Master's,Product Manager,2.0,6814.8
+27.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,5.0,10222.2
+29.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+32.0,Male,Bachelor's,Product Manager,7.0,9654.3
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+28.0,Male,Bachelor's,Software Engineer,3.0,7098.75
+26.0,Female,Master's,Product Manager,2.0,6814.8
+27.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,5.0,10222.2
+29.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+32.0,Male,Bachelor's,Product Manager,7.0,9654.3
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+28.0,Male,Bachelor's,Software Engineer,3.0,7098.75
+26.0,Female,Master's,Product Manager,2.0,6814.8
+27.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,5.0,10222.2
+29.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+32.0,Male,Bachelor's,Product Manager,7.0,9654.3
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+25.0,Female,Master's,Data Analyst,1.0,5679.0
+33.0,Male,PhD,Data Scientist,8.0,10790.1
+31.0,Female,Bachelor's,Software Engineer,6.0,8802.45
+28.0,Male,Master's,Product Manager,3.0,7382.7
+30.0,Female,Bachelor's,Data Analyst,5.0,8234.55
+27.0,Male,PhD,Data Scientist,2.0,6530.85
+29.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Bachelor's,Product Manager,9.0,10506.15
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+31.0,Female,Master's,Data Scientist,9.0,11074.050000000001
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+23.0,Male,Bachelor's,Data Analyst,1.0,5395.05
+32.0,Female,PhD,Data Scientist,10.0,10960.47
+29.0,Male,Bachelor's,Software Engineer,6.0,9938.25
+30.0,Female,Bachelor's,Product Manager,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+31.0,Female,Master's,Data Scientist,6.0,10222.2
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Male,Master's,Product Manager,11.0,11244.42
+26.0,Female,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Male,PhD,Data Scientist,7.0,10506.15
+27.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Master's,Product Manager,12.0,11130.84
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+30.0,Male,Bachelor's,Data Analyst,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+31.0,Female,PhD,Data Scientist,9.0,11074.050000000001
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Male,Bachelor's,Data Analyst,2.0,7098.75
+28.0,Female,Master's,Data Scientist,6.0,9938.25
+30.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+24.0,Male,Bachelor's,Data Analyst,1.0,5395.05
+31.0,Male,Master's,Data Scientist,9.0,11074.050000000001
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+23.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+32.0,Female,PhD,Data Scientist,10.0,10960.47
+29.0,Male,Bachelor's,Software Engineer,6.0,9654.3
+30.0,Female,Bachelor's,Product Manager,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7666.650000000001
+31.0,Female,Master's,Data Scientist,6.0,10222.2
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+25.0,Male,Bachelor's,Data Analyst,2.0,6530.85
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Male,Master's,Product Manager,11.0,11244.42
+26.0,Female,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Male,PhD,Data Scientist,7.0,10506.15
+27.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Master's,Product Manager,12.0,11130.84
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+30.0,Male,Bachelor's,Data Analyst,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+31.0,Female,PhD,Data Scientist,9.0,11074.050000000001
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+23.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Female,Master's,Data Scientist,4.0,8518.5
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+24.0,Female,Bachelor's,Product Manager,3.0,7098.75
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+31.0,Male,Master's,Data Scientist,7.0,10222.2
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Female,Master's,Product Manager,10.0,11074.050000000001
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Female,PhD,Data Scientist,6.0,9654.3
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,11.0,11130.84
+23.0,Male,Bachelor's,Data Analyst,1.0,5224.68
+32.0,Female,PhD,Data Scientist,9.0,11074.050000000001
+29.0,Male,Bachelor's,Software Engineer,6.0,9654.3
+30.0,Female,Bachelor's,Product Manager,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7666.650000000001
+31.0,Female,Master's,Data Scientist,6.0,10222.2
+28.0,Male,Bachelor's,Software Engineer,5.0,9370.35
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5395.05
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+25.0,Male,Bachelor's,Data Analyst,2.0,6530.85
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+33.0,Male,Master's,Product Manager,11.0,11244.42
+26.0,Female,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Male,PhD,Data Scientist,7.0,10506.15
+27.0,Female,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Male,Master's,Product Manager,12.0,11130.84
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+30.0,Male,Bachelor's,Data Analyst,5.0,9086.4
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+31.0,Female,PhD,Data Scientist,9.0,11074.050000000001
+28.0,Male,Bachelor's,Software Engineer,5.0,9086.4
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+25.0,Male,Bachelor's,Data Analyst,3.0,7666.650000000001
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+30.0,Male,Bachelor's,Data Analyst,5.0,9086.4
+24.0,Male,Bachelor's,Data Analyst,1.0,5395.05
+33.0,Female,Master's,Product Manager,11.0,11130.84
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Female,Bachelor's,Data Analyst,3.0,7382.7
+30.0,Male,PhD,Data Scientist,7.0,10506.15
+27.0,Female,Bachelor's,Product Manager,4.0,8518.5
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+33.0,Male,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6530.85
+28.0,Male,Bachelor's,Software Engineer,5.0,9370.35
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+31.0,Female,Master's,Data Scientist,6.0,10222.2
+30.0,Male,Bachelor's,Data Analyst,5.0,9086.4
+24.0,Male,Bachelor's,Data Analyst,1.0,5224.68
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+25.0,Male,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+34.0,Female,Master's,Product Manager,12.0,11130.84
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+31.0,Male,Bachelor's,Data Analyst,9.0,11074.050000000001
+28.0,Female,Bachelor's,Software Engineer,5.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,7382.7
+29.0,Female,Master's,Data Scientist,6.0,10222.2
+32.0,Male,Bachelor's,Software Engineer,8.0,10790.1
+33.0,Female,Master's,Product Manager,11.0,11244.42
+24.0,Male,Bachelor's,Data Analyst,1.0,5111.1
+27.0,Male,Bachelor's,Software Engineer,4.0,7950.6
+25.0,Female,Bachelor's,Data Analyst,2.0,6246.900000000001
+30.0,Female,PhD,Data Scientist,7.0,10506.15
+32.0,Male,Bachelor's,Data Analyst,5.0,7666.650000000001
+27.0,Female,Master's,Data Scientist,3.0,10222.2
+40.0,Male,Bachelor's,Software Engineer,12.0,11074.050000000001
+35.0,Female,Bachelor's,Product Manager,8.0,9370.35
+43.0,Male,Master's,Data Scientist,15.0,11244.42
+29.0,Female,Bachelor's,Software Engineer,4.0,8518.5
+36.0,Male,Bachelor's,Data Analyst,9.0,9199.98
+31.0,Male,Master's,Data Scientist,6.0,9938.25
+42.0,Female,Bachelor's,Software Engineer,13.0,11187.630000000001
+33.0,Male,Bachelor's,Data Analyst,7.0,8064.18
+29.0,Female,Master's,Data Scientist,4.0,10335.78
+41.0,Male,Bachelor's,Software Engineer,11.0,10506.15
+35.0,Female,Bachelor's,Product Manager,8.0,9654.3
+27.0,Male,Bachelor's,Software Engineer,4.0,9086.4
+32.0,Male,Bachelor's,Data Scientist,8.0,10222.2
+29.0,Female,Master's,Data Analyst,6.0,8518.5
+30.0,Male,Bachelor's,Data Analyst,5.0,7950.6
+24.0,Male,Bachelor's,Data Analyst,2.0,5679.0
+33.0,Female,Master's,Product Manager,11.0,10790.1
+27.0,Male,Bachelor's,Software Engineer,4.0,9086.4
+26.0,Male,Bachelor's,Data Analyst,3.0,6814.8
+30.0,Female,PhD,Data Scientist,7.0,9654.3
+31.0,Male,Bachelor's,Data Analyst,9.0,10790.1
+28.0,Female,Bachelor's,Software Engineer,5.0,8518.5
+26.0,Female,Bachelor's,Data Analyst,3.0,6814.8
+30.0,Male,PhD,Data Scientist,7.0,9654.3
+27.0,Female,Bachelor's,Product Manager,4.0,7382.7
+24.0,Male,Bachelor's,Data Analyst,2.0,5395.05
+33.0,Male,Master's,Product Manager,11.0,11074.050000000001
+25.0,Male,Bachelor's,Data Analyst,2.0,5679.0
+28.0,Male,Bachelor's,Software Engineer,5.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,6814.8
+29.0,Female,Master's,Data Scientist,6.0,8518.5
+32.0,Male,Bachelor's,Data Scientist,8.0,10222.2
+33.0,Female,Master's,Product Manager,11.0,11074.050000000001
+27.0,Male,Bachelor's,Software Engineer,4.0,9086.4
+31.0,Female,Master's,Data Scientist,6.0,9654.3
+30.0,Male,Bachelor's,Data Analyst,5.0,7950.6
+24.0,Male,Bachelor's,Data Analyst,2.0,5395.05
+28.0,Female,Bachelor's,Software Engineer,5.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,6814.8
+32.0,Male,Bachelor's,Software Engineer,8.0,10222.2
+33.0,Female,Master's,Product Manager,11.0,11074.050000000001
+25.0,Male,Bachelor's,Data Analyst,2.0,5679.0
+30.0,Female,PhD,Data Scientist,7.0,9654.3
+27.0,Male,Bachelor's,Software Engineer,4.0,9086.4
+34.0,Female,Master's,Product Manager,12.0,10790.1
+31.0,Male,Bachelor's,Data Analyst,9.0,10790.1
+28.0,Female,Bachelor's,Software Engineer,5.0,8518.5
+26.0,Male,Bachelor's,Data Analyst,3.0,6814.8
+29.0,Female,Master's,Data Scientist,6.0,8518.5
+32.0,Male,Bachelor's,Software Engineer,8.0,10222.2
+33.0,Female,Master's,Product Manager,11.0,11074.050000000001
+24.0,Male,Bachelor's,Data Analyst,2.0,5395.05
+27.0,Male,Bachelor's,Software Engineer,4.0,9086.4
+25.0,Female,Bachelor's,Data Analyst,2.0,5679.0
